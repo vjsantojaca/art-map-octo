@@ -3,13 +3,14 @@
 
 #' @export
 #' @import ggplot2 osmdata sf
-#' @examples
-#' create_art_map()
+#' @examples create_art_map()
 
 create_art_map <- function() {
+
   # obtain coordinates for ggplot
   bb_salamanca <- getbb("Salamanca, España")
 
+  print("Downloading Salamanca information")
   # obtain the dataset
   streets <- bb_salamanca %>%
     opq() %>%
@@ -26,6 +27,7 @@ create_art_map <- function() {
     add_osm_feature(key = "waterway", value = "river") %>%
     osmdata_sf()
 
+  print("Creating Salamanca map")
   # create map
   final_map <- ggplot() +
           #ggtitle("SALAMANCA") +
@@ -40,6 +42,7 @@ create_art_map <- function() {
           plot.margin=unit(c(2.4,2.4,2.4,2.4), "cm")
           )
 
+  print("Saving Salamanca map")
   # save map
   ggsave(final_map, 
         filename = "salamanca_500_white_black.png",
@@ -48,4 +51,6 @@ create_art_map <- function() {
         height = 24, 
         units = "in",
         dpi = 500)
+
+  print("All Done!!")
 }
