@@ -1,12 +1,8 @@
-# libraries that we need
-library(tidyverse)
-library(osmdata)
-
 #' Using Open Streetmaps API obtain information about Salamanca and plot a map
 #'
 
 #' @export
-#' @import tidyverse osmdata sf
+#' @import ggplot2 osmdata sf
 #' @examples
 #' create_art_map()
 
