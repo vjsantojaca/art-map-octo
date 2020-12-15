@@ -11,10 +11,12 @@ The function **create_art_map** creates a png 36*24 Inch with 500 dpi with a str
     More information -> https://ggplot2.tidyverse.org/
 
     ```R
-    install.packages("tidyverse")
+    install.packages("ggplot2")
     ```
 - ### osmdata
     ***osmdata*** is an R package for downloading and using data from OpenStreetMap.  OSM is a global open access mapping project, which is free and open under the ODbL licence.
+
+    More information -> https://cran.r-project.org/web/packages/osmdata/vignettes/osmdata.html
 
     ```R
     install.packages("osmdata")
@@ -25,7 +27,10 @@ The function **create_art_map** creates a png 36*24 Inch with 500 dpi with a str
 devtools::install_github("vjsantojaca/art-map-octo")
 ```
 
-
+## Use
+```R
+create_art_map()
+```
 ## Example Plot
 ![Salamanca map art black and white](plots/salamanca_500_white_black.png "Salamanca map art black and white")
 ![Salamanca map art color](plots/salamanca_500_colors.png "Salamanca map art colors")
