@@ -1,10 +1,10 @@
 Package: art-map-octo
 Type: Package
 Title: Art Map with R
-Version: 0.0.1
+Version: 0.1
 Author: Víctor Santoja
-Maintainer: Víctor Santoja <victorsantoja@gmail.com
-License: GPL-2
+Maintainer: Víctor Santoja <victorsantoja@gmail.com>
+License: GPL-3
 Depends:R (>= 3.0.0)
 Imports:
     tidyverse,
