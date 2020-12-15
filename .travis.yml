@@ -1,0 +1,18 @@
+language: r
+
+r:
+  - release
+  - devel
+
+warnings_are_errors: false
+
+sudo: required
+
+r_packages:
+  - tidyverse
+  - osmdata
+
+notifications:
+  email:
+    on_success: change
+    on_failure: change
