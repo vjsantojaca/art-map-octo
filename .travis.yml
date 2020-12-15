@@ -3,6 +3,14 @@ cache: packages
 sudo: false
 warnings_are_errors: false
 
+addons:
+  apt:
+    update: true
+    packages:
+      - libudunits2-0
+      - libudunits2-dev
+      - libgdal-dev
+
 r:
   - release
   - devel
