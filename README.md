@@ -1,5 +1,7 @@
 # Art Map with R 👩🏻‍🎨 🧑🏻‍🎨
 
+![travis-ci art-map-octo](https://travis-ci.com/vjsantojaca/art-map-octo.svg?branch=main)
+
 In this project, we are going to use **ggplot2**  
 ggplot2 is a data visualization package for the statistical programming language R. It is a part of tidyverse.
 
