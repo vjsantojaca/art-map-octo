@@ -8,7 +8,7 @@ Description: Art Map with R
 License: GPL-3
 Depends: R (>= 3.0.0)
 Imports:
-    tidyverse,
+    ggplot2,
     osmdata, 
     sf
 URL: https://github.com/vjsantojaca/art-map-octo
