@@ -37,7 +37,7 @@ final_map <- ggplot() +
 
 # save map
 ggsave(final_map, 
-       filename = "map_art.png",
+       filename = "salamanca_500_white_black.png",
        scale = 1, 
        width = 36, 
        height = 24, 
