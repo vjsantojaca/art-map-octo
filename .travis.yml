@@ -1,12 +1,11 @@
 language: r
+cache: packages
+sudo: false
+warnings_are_errors: false
 
 r:
   - release
   - devel
-
-warnings_are_errors: false
-
-cache: packages
 
 r_packages:
   - tidyverse
