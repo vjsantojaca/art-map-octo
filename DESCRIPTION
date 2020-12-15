@@ -1,7 +1,7 @@
 Package: artmapocto
 Type: Package
 Title: Art Map with R
-Version: 0.1
+Version: 1.0
 Author: Víctor Santoja
 Maintainer: Víctor Santoja <victorsantoja@gmail.com>
 Description: Art Map with R
